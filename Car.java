@@ -1,17 +1,17 @@
 public class Car
 {
-	public int yearModel;
-	public String make;
-	public int speed;
+	private int yearModel;
+	private String make;
+	private int speed;
 
-	Car()
+	public Car()
 	{
 		yearModel = 0;
 		make = "";
 		speed = 0;
 	}
 
-	Car(int newYearModel, String newMake, int newSpeed)
+	public Car(int newYearModel, String newMake, int newSpeed)
 	{
 		yearModel = newYearModel;
 		make = newMake;
